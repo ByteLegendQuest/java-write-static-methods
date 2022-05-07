@@ -7,12 +7,10 @@ public class Challenge {
     }
 
     public static hello() {
-        String output = "Hello";
-        return output;
+        return "Hello";
     }
 
     public static add(int a, int b) {
-        String output = Interger.toString(a + b);
-        return output;
+        return a + b;
     }
 }
