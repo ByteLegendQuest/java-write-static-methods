@@ -6,7 +6,13 @@ public class Challenge {
         System.out.println(add(40, 2));
     }
 
-    public static hello() {}
+    public static hello() {
+        String temp = "Hello";
+        return temp;
+    }
 
-    public static add() {}
+    public static add() {
+        int adds = 41 + 1;
+        return adds;
+    }
 }
