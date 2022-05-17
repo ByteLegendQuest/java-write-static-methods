@@ -8,9 +8,11 @@ public class Challenge {
 
     public static String hello() {
         return "Hello";
+
     }
 
     public static int add(int x,int y) {
         return x + y;
+
     }
 }
