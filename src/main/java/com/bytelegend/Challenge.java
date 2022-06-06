@@ -1,8 +1,17 @@
 package com.bytelegend;
 
-public class Challenge {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello");
-        System.out.println("42");
+        hello();
+        add();
+    }
+
+    public static void hello() {
+        System.out.println( "Hello");
+    }
+
+    public static void add() {
+        System.out.println( 40 + 2);
     }
 }
+    
